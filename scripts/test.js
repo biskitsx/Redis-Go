@@ -7,7 +7,7 @@ export let options = {
 }
 
 export default function () {
-    let res = http.get('http://host.docker.internal:8080/hello')
+    let res = http.get('http://host.docker.internal:8080/products')
 
     // check(res, { 'success login': (r) => r.status === 200 })
 
